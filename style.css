@@ -90,17 +90,35 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
 }
 
 .phone img {
     width: 400px;
     height: auto;
+    position: relative;
+    z-index: 2;
 }
 
-h1 {
-    font-size: 72px;
+.vetor {
+    position: absolute;
+    z-index: 1;
+}
+
+.cash {
+    font-size: 230px;
     margin: 20px 0;
-    position: relative;
+    position: absolute;
+    z-index: 1;
+    
+}
+
+.app {
+    font-size: 230px;
+    margin: 20px 0;
+    position: absolute;
+    z-index: 3;
+    bottom: 2%;
 }
 
 .store-links {
