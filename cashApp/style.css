@@ -16,7 +16,7 @@ body {
 
 header {
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo do header */
+    justify-content: center;
     align-items: center;
     padding: 20px 40px;
     letter-spacing: 3px;
