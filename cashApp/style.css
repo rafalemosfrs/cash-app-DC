@@ -8,7 +8,7 @@
 body {
     background-color: black;
     color: white;
-    overflow-x: hidden;
+    overflow: hidden;
     background-image: url(images/Vector.png);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -35,6 +35,10 @@ header .logo {
     font-family: "Lolila One", sans-serif;
     position: absolute;
     left: 40px;
+}
+
+.logo{
+    top: 30px;
 }
 
 header nav {
@@ -191,6 +195,8 @@ footer {
     display: flex;
     align-items: center;
     gap: 20px;
+    position: absolute;
+    right: 80px;
 }
 
 .social-icons img {
@@ -202,4 +208,10 @@ footer {
 
 .social-icons img:hover {
     transform: scale(1.2);
+}
+
+.eye{
+    position: absolute;
+    right: 40px;
+    top: 30px;
 }
