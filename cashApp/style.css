@@ -29,6 +29,10 @@ header {
     font-style: normal;
 }  
 
+h1{
+    letter-spacing: 30px;
+}
+
 header .logo {
     font-size: 24px;
     color: green;
